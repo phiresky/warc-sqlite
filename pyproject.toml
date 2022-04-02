@@ -1,0 +1,18 @@
+[project]
+name = "warc_sqlite_python"
+description = "POC of warc to sqlite conversion"
+dependencies = [
+    "tqdm~=4.63",
+    "warcio~=1.7.4",
+    "typed-argument-parser~=1.7.2"
+]
+version = "0.1.0"
+
+[project.scripts]
+warc-sqlite-import = "warc_sqlite_python.cli:run_import"
+warc-sqlite-query = "warc_sqlite_python.cli:run_query"
+
+[build-system]
+# todo: remove this once we go back to a real build system with lock files
+build-backend = "flit_core.buildapi"
+requires = ["flit_core >=3.2,<4"]
