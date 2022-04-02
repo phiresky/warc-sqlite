@@ -24,7 +24,9 @@ class ImportArgs(CommonArgs):
 
 class QueryArgs(CommonArgs):
     get_urls_like: Optional[str] = None
+    """print out a list of urls that match the given glob"""
     get_url_payload: Optional[str] = None
+    """print the raw payload of the first response to an url to stdout"""
 
 
 def run_import():
