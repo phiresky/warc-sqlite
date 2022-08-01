@@ -1,6 +1,6 @@
 # warc-sqlite
 
-Simple demonstration of converting a set of warc.gz files into an indexed SQLite database. For context, see this discussion about WACZ: https://github.com/webrecorder/wacz-spec/issues/62
+Simple demonstration of converting a set of warc.gz files into an indexed SQLite database. For context, see this discussion about WACZ: https://github.com/webrecorder/specs/issues/62
 
 Notes:
 
